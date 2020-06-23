@@ -1,0 +1,7 @@
+import itertools
+res = "" 
+N=int(input())
+for i, j in itertools.product(range(97+N), range(97,97+N)):
+     
+         res = res+chr(j)
+         print(res.center(21,'-'))

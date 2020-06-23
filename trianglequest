@@ -1,0 +1,12 @@
+from collections import defaultdict
+n,m=map(int,input().split())
+
+lst1=[]
+lst2=[]
+for _ in range(n):
+    lst1.append(input())
+for _ in range(m):
+    lst2.append(input())
+for i in range(len(lst2)):
+    if lst2[i] in lst1:
+        print(i)

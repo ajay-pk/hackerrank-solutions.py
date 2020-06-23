@@ -1,0 +1,11 @@
+import math
+n= int(input())
+lst= list(map(int,input().split()))
+if n>4 and n<101:
+    s=sum(lst)/n
+    x=list()
+    for i in lst:
+       x.append((i-s)**2)
+    sigma=math.sqrt(sum(x)/n)
+
+print("{:.1f}".format(sigma) )

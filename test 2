@@ -1,0 +1,19 @@
+import numpy as np
+a=list(map(int,input().split()))
+b=list(map(int,input().split()))
+a= np.array(a)
+b= np.array(b)
+print( np.inner(a,b))
+print(np.outer(a,b))
+
+
+
+
+if llistl%2!=0:
+           nl=int(llistl//2)
+       
+           medL=llist[nl]
+           nl1=uplistl//2
+       
+           medU=uplist[nl1]
+           print(int(medL))  
